@@ -1,0 +1,558 @@
+@media only screen and (min-width: 1199.99px) and (max-width:1520px) {
+    
+    .banner-sec{
+        padding-top: 60px;
+    }
+    .banner-sec .banner-content h1{
+        font:  45px/52px Montserrat;
+    }
+    .banner-sec .banner-content p{
+        font:18px/28px Montserrat;
+        padding-top: 0;
+    }
+    .banner-sec .banner-content .primary-btn{
+        margin-top: 25px;
+    }
+    .banner-sec .home-banner{
+        position: relative;
+        margin-top: -20px;
+        z-index: -1;
+    }
+    
+    .about-sec .about-left div:nth-child(2) p{
+        font:18px/36px Montserrat;
+    }
+    .how-works-sec .how-works-left div p{
+        padding-top: 20px;
+        font:18px/36px Montserrat;
+        width: 90%;
+    }
+    .learn-now-sec .learn-now-right ul li p{
+         font:18px/36px Montserrat;
+    }
+    .how-works-sec .how-works-left ol li{
+         font:18px/36px Montserrat;
+    }
+    .learn-now-sec .learn-now-right ul li{
+        margin-bottom: 27px;
+    }
+    
+    .heading-style-2{
+        padding-bottom: 22px;
+        margin-bottom: 22px;
+        font: 38px/46px Montserrat;
+    }
+    .course-card .rating span{
+        font:18px/36px Montserrat;
+    }
+    .course-card .card-body h3{
+        font:22px/34px Montserrat;
+    }
+    .course-card .card-body p {
+        font: 16px/32px Montserrat;
+    }
+    .how-works-right .box{
+        width: 295px;
+        height: 295px;
+    }
+    .primary-btn{
+        height: 55px;
+        padding: 0 35px;
+    }
+    .primary-btn span {
+        font: 14px/19px Montserrat;
+    }
+    .partners-sec p{
+        font:18px/36px Montserrat;
+    }
+
+}
+
+@media only screen and (min-width: 1521px) and (max-width:1700px) {
+    .banner-sec{
+        padding-top: 30px;
+    }
+    .banner-sec .banner-content h1{
+        font: 42px/48px Montserrat;
+    }
+    .banner-sec .banner-content p{
+        font:24px/36px Montserrat;
+        padding-top: 0;
+    }
+    .banner-sec .banner-content .primary-btn{
+        margin-top: 25px;
+    }
+    .banner-sec .home-banner{
+        position: relative;
+        margin-top: -56px;
+        z-index: -1;
+    }
+    .how-works-sec > .row:nth-child(1){
+        padding:  235px 0;
+    }
+    .how-works-sec .how-works-left div p{
+        width: 90%;
+    }
+    .heading-style-2{
+        font: 48px/48px Montserrat;
+    }
+}
+@media only screen and (min-width: 1701px) and (max-width:1920px) {
+    .how-works-sec > .row:nth-child(1){
+        padding: 398px 0 !important;
+    }
+        .how-works-sec > .row:nth-child(1){
+        padding:  295px 0;
+    }
+        .how-works-sec .how-works-left div p{
+        width: 90%;
+    }
+    .how-works-right .box{
+        width: 400px;
+        height: 360px;
+    }
+    .how-works-right .box img{
+        max-width: 70%;
+    }
+    .how-works-right .box p{
+        font:24px/34px Montserrat;
+    }
+}
+
+@media (min-width:1920px){
+    .banner-sec{
+        padding-top: 90px;
+    }
+    .all-courses .course-card{
+        max-width: 525px;
+    }
+}
+
+
+@media only screen and (min-width:768px) and (max-width:1024px){
+    .navbar-nav .nav-item .nav-link span{
+        font:14px/16px Montserrat;
+    }
+    .banner-sec{
+        padding-top: 48px;
+    }
+    .banner-sec .banner-content h1{
+        font: 32px/38px Montserrat;
+    }
+    .banner-sec .banner-content p {
+        font: 16px/32px Montserrat;    
+    }
+    .banner-content .app-store a img {
+        margin: 8px 5px;
+        max-width: 15%;
+    }
+    .heading-style-2{
+        font: 28px/16px Montserrat;
+    }
+    .heading-style-2{
+        margin-bottom: 16px;
+    }
+    .about-sec .about-left div:nth-child(2) p{
+        font: 16px/32px Montserrat;
+    }
+    .about-sec .about-right img{
+        max-width: 90%;
+    }
+    .learn-now-sec .learn-now-left img{
+        margin-left: inherit;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .learn-now-sec .learn-now-right ul{
+        padding-top: 0;
+    }
+    .learn-now-sec .learn-now-right ul li{
+        margin-bottom: 15px;
+    }
+    .learn-now-sec .learn-now-right ul li span,
+    .learn-now-sec .learn-now-right ul li p{
+         font: 16px/32px Montserrat;
+    }
+    .learn-now-sec .learn-now-right ul li p{
+        padding-left: 16px;
+    }
+    .learn-now-sec .learn-now-right .primary-btn{
+        margin-top: 22px;
+    }
+    .primary-btn{
+        padding: 0 36px;
+        height: 50px;
+    }
+    .primary-btn span{
+       font: 14px/28px Montserrat;
+    }
+    .secondary-btn{
+        padding: 0 36px;
+        height: 50px;
+    }
+   .secondary-btn span{
+       font: 14px/28px Montserrat;
+    }
+    .how-works-sec .how-works-left ol li{
+        font: 16px/32px Montserrat;
+    }
+    .how-works-right .box.first-box{
+        margin-right: 26px;
+    }
+    .how-works-right .box.second-box{
+        margin-top: 26px;
+    }
+    .how-works-right .box{
+        width: 210px;
+        height: 240px;
+    }
+    .how-works-right .box p{
+        font: 14px/28px Montserrat;
+    }
+    .how-works-sec > .row:nth-child(1){
+        padding: 120px 0;
+    }
+    .how-works-left .triangle{
+        bottom: -20%;
+    }
+    
+    .how-works-left .curve3{
+        bottom: -43%;
+    }
+    .course-card .card-header{
+        height: 210px;
+    }
+    .course-card .rating span{
+        font:16px/32px Montserrat;
+    }
+    .course-card .rating ul li{
+        font-size: 16px;
+    }
+    .course-card .card-body h3{
+        font:18px/36px Montserrat;
+    }
+    .skillpay-sec .skillpay-card h3{
+        font:18px/28px Montserrat;
+    }
+    .skillpay-sec .skillpay-card p{
+        font:14px/28px Montserrat;
+    }
+    .bluestrip {
+        bottom: -32px;
+    }
+    .why-skill{
+        top: 134px;
+    }
+    .partners-sec{
+        padding-top: 50px;
+    }
+    .partners-sec p{
+        font:16px/32px Montserrat;
+    }
+    .partners-sec .row{
+        padding: 0;
+    }
+    .dotts-img{
+        left: 0;
+        top: 3%;
+    }
+    .get-loan-sec h2{
+        font:36px/62px Montserrat;
+    }
+    .get-loan-sec .app-stores a img{
+        max-width: 15%;
+    }
+    .get-loan-sec{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .footer-sec .row{
+        padding: 0;
+    }
+}
+
+@media (max-width:812px){
+    .top-nav .row{
+        padding: 0;
+    }
+    .navbar{
+        padding: 8px 16px;
+    }
+    .about-sec .about-right img {
+        max-width: 50%;
+        margin: 0 auto;
+    }
+    .learn-now-sec .learn-now-left img{
+        max-width: 60%;
+        margin-bottom: 30px;
+    }
+    .how-works-sec > .row:nth-child(1){
+        background: none;
+    }
+    
+    .card.course-card{
+        width: 320px;
+        margin: 20px auto;
+    }
+    .partners-sec{
+        padding-bottom: 30px;
+    }
+    .partners-sec .partners-card{
+        width: 320px;
+    }
+    .footer-middle ul{
+        margin: 15px 0;
+    }
+    .footer-left{
+        text-align: center;
+    }
+    .footer-right p{
+        text-align: center;
+    }
+    .curve1{
+        display: none;
+    }
+    .how-works-sec > .row:nth-child(1){
+        padding: 60px 0;
+    }
+
+    .how-works-right .box.first-box{
+        margin: 24px auto;
+    }
+    .how-works-right .box.second-box{
+        margin-top: 0;
+        margin: 24px auto;
+    }
+
+    .triangle,.dot-red,.dot-blue,.curve3{
+        display: none;
+    }
+}
+
+@media (max-width:768px){
+    .top-nav .row{
+        padding: 0;
+    }
+    .navbar{
+        padding: 8px 16px;
+    }
+    .about-sec .about-right img,
+    .learn-now-sec .learn-now-left img{
+        max-width: 50%;
+        margin: 0 auto;
+    }
+    .how-works-sec{
+        padding-bottom: 0;
+    }
+    .how-works-right .box.first-box,
+    .how-works-right .box.second-box{
+        margin: 20px auto;
+    }
+    .how-works-sec > .row:nth-child(1){
+        background-size: 73%;
+        background-position-y:92%; 
+    }
+    .how-works-left .triangle{
+        top: 14%;
+        left: 80%;
+    }
+    .all-courses .row:nth-child(1){
+        margin-bottom: 16px;
+    }
+    .course-card{
+        width: 306px;
+        margin: 20px auto;
+    }
+    .course-card .card-header{
+        height: 225px;
+    }
+    .course-card .rating span{
+        font:16px/32px Montserrat;
+    }
+    .course-card .card-body h3{
+        font: 24px/36px Montserrat;
+    }
+    .partners-sec .partners-card{
+        width: 300px;
+    }
+    .partners-sec{
+        padding-bottom: 70px;
+    }
+    .partners-sec .partners-card img{
+        max-width: 70%;
+    }
+    .footer-sec .row{
+        padding: 0;
+    }
+
+    .footer-middle ul{
+       margin: 16px 0;
+    }
+    .footer-left ul li {
+        font:16px/32px Montserrat;
+    }
+    .footer-left,
+    .footer-right p{
+        text-align: center;
+    }
+
+}
+
+
+@media only screen and (min-width:320px) and (max-width:767.99px){
+    .top-nav{
+        display: none;
+    }
+    .navbar-brand img{
+        max-width: 65%;
+    }
+    .nav-btn {
+        width: 150px;
+        height: 45px;
+    }
+/*
+    .top-nav .top-nav-left ul, .top-nav .top-nav-right ul{
+        display: block;
+    }
+    .top-nav .top-nav-right ul li:nth-child(2) a{
+        padding-left: 0;
+    }
+    */    
+    .navbar-nav{
+        border-bottom: 2px solid #FF442D;
+        padding-bottom: 20px;
+        background: #f5f5f5;
+    }
+    .navbar-nav .nav-item{
+        padding-left: 0;
+    }
+    .navbar-nav .nav-item .nav-link span{
+        font:14px/18px Montserrat;
+    }
+    .navbar-nav .nav-item{
+        margin: 10px 0;
+    }
+ 
+    .banner-sec{
+        padding-top: 20px;
+    }
+    .banner-sec .banner-content{
+        padding: 0 16px;
+    }
+    .banner-sec .banner-content h1{
+        font:24px/32px Montserrat;
+    }
+    .banner-sec .banner-content h1 br{
+        display: none;
+    }
+    .banner-sec .banner-content p{
+        font:14px/28px Montserrat;
+    }
+    .banner-content .app-store a img{
+        max-width: 55%;
+    }
+    .primary-btn {
+        padding: 0 38px;
+        height: 50px;
+    }
+    .primary-btn span{
+         font:14px/14px Montserrat;
+    }
+   .secondary-btn {
+        padding: 0 38px;
+        height: 50px;
+    }
+    .secondary-btn span{
+         font:14px/14px Montserrat;
+    }
+    .all-courses .row,
+    .skillpay-sec .row,
+    .partners-sec .row{
+        padding: 0 !important;
+    }
+    .about-sec .about-left div:nth-child(1){
+        display: none;
+    }
+    .heading-style-2{
+        font: 24px/28px Montserrat;
+        margin-bottom: 22px;
+    }
+    .about-sec .about-left div:nth-child(2) p {
+        font:14px/28px Montserrat;
+    }
+    .about-sec .about-right img, .learn-now-sec .learn-now-left img {
+        max-width: 50%;
+        margin-bottom: 20px;
+    }
+    
+    .learn-now-sec .learn-now-right ul{
+        padding-top: 0;
+    }
+    .learn-now-sec .learn-now-right ul li{
+        margin-bottom: 24px;
+    }
+    .learn-now-sec .learn-now-right ul li p{
+        padding-left: 16px;
+        font: 14px/28px Montserrat;
+        width: 80%;
+    }
+    .learn-now-sec .learn-now-right .primary-btn{
+        margin-top: 0;
+    }
+    .how-works-sec > .row:nth-child(1){
+        padding: 60px 0;
+    }
+    .dots-pattern{
+        display: none;
+    }
+    .how-works-sec .how-works-left ol li{
+        font: 14px/28px Montserrat;
+    }
+    .how-works-sec > .row:nth-child(1){
+        background: none;
+    }
+    .skillpay-sec{
+        padding-bottom: 0;
+    }
+    .skillpay-sec .skillpay-card h3{
+        font:18px/36px Montserrat;
+    }
+    .skillpay-sec .skillpay-card p{
+        font:14px/28px Montserrat;
+    }
+    .dotts-img{
+        display: none;
+    }
+    .partners-sec{
+        padding-bottom: 10px;
+    }
+    .partners-sec .heading-style-2::after{
+        left: 39%;
+    }
+    .partners-sec p{
+        font: 14px/28px Montserrat;
+    }
+    .get-loan-sec{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .get-loan-sec h2 {
+        font: 28px/48px Montserrat;
+    }
+    .get-loan-sec span {
+        font: 14px/28px Montserrat;
+    }
+    .get-loan-sec .app-stores a img{
+        margin: 10px;
+        max-width: 55%;
+    }
+    .footer-middle ul{
+        display: block;
+        text-align: center;
+    }
+    .dot-red,
+    .dot-blue,.curve1,.curve3{
+        display: none;
+    }
+}
+

@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="SkillPay is an financial institution which provides loan for aspiring students and working professionals.">
+    <meta name="keywords" content="skillpay,get loan, courses, institute, course, development,students,professionals">
+    <meta name="author" content="IDEEo">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillPay - Get Loan, Get Trained & Pay Later</title>
+    
+    <!--External style links start-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!--External links end-->
+    
+</head>
+<body>
+    
+<!--Top-Nav starts-->
+    <div class="container-fluid top-nav">
+        <div class="row h-100">
+            <div class="col-lg-6 col-md-5 col-sm-12 col-xs-12 top-nav-left">
+                <ul>
+                    <li><a href="#">Get Loan, Get Trained & Pay Later</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-6 col-md-7 col-sm-12 col-xs-12 top-nav-right">
+                <ul>
+                    <li>
+                        <a href="mailto:apply4loan@skillpay.io"><img src="assets/img/icons/email-icon.png" alt="email-icon"><span class="text-lowercase">apply4loan@skillpay.io</span></a>
+                    </li>
+                    <li>
+                        <a href="tel:90142 02633"><img src="assets/img/icons/phone-icon.png" alt="phone-icon"><span>90142 02633</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+<!--Top-Nav Ends-->
+   
+<!--Main Navigation start-->
+<nav class="navbar navbar-expand-lg ">
+  <a class="navbar-brand" href="#">
+      <img src="assets/img/skillpay-logo.png" alt="logo">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+   <img src="assets/img/icons/menu.png" alt="menu-icon">
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link"  href="javascript:void(0)" onclick="openNav()">
+            <span>check loan status</span>
+        </a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link nav-btn" href="javascript:void(0)" onclick="openNav()">
+            <span>get loan</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!--Main Navigation end-->
+ 
+<!-- sidenav start-->
+<div id="projectTour" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn text-white" onclick="closeNav()">&times;</a>
+    <div class="sidenav-content">
+        <h3>Apply for a Loan</h3>
+        <p>You need to download our mobile app, and apply for a loan. Once you apply, we will review your application and give you update. You can also check your loan status in the mobile app itself.</p>
+        <div class="apply-btns">
+            <a href="https://play.google.com/store/apps/details?id=com.skillpay" target="_blank"><img src="assets/img/icons/android-w.png" alt="ios-app"></a>
+            <a href="javascript:void(0)" onclick="closeNav()" data-toggle="modal" data-target="#exampleModal"><img src="assets/img/icons/app-store-w.png" alt="android-app"></a>
+        </div>
+    <form class="needs-validation d-none" novalidate>
+      <div class="form-group">
+        <div class="">
+          <label class=" text-end">
+            NOTE: <small>All fields are required*</small>
+          </label>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="col-md-12 mb-3">
+          <label for="fullnamevalid">Full name</label>
+          <input type="text" class="form-control" id="fullnamevalid" placeholder="Full name" value="" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+         <div class="col-md-12 mb-3">
+          <label for="mobilevalid">Mobile Number</label>
+          <input type="text" class="form-control" id="mobilevalid" placeholder="Mobile number" value="" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-12 mb-3">
+          <label for="emailvalid">Email</label>
+          <input type="text" class="form-control" id="emailvalid" placeholder="Email address" value="" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="col-md-6 mb-3">
+          <label for="validationCustom03">City</label>
+          <input type="text" class="form-control" id="validationCustom03" placeholder="City" required>
+          <div class="invalid-feedback">
+            Please provide a valid city.
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <label for="validationCustom04">State</label>
+          <input type="text" class="form-control" id="validationCustom04" placeholder="State" required>
+          <div class="invalid-feedback">
+            Please provide a valid state.
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <label for="validationCustom05">Zip</label>
+          <input type="text" class="form-control" id="validationCustom05" placeholder="Zip" required>
+          <div class="invalid-feedback">
+            Please provide a valid zip.
+          </div>
+        </div>
+      </div>
+      <button class="primary-btn mt-4" type="submit">Submit form</button>
+    </form>
+
+
+    </div>
+</div>
+<!-- sidenav end-->
+  
+  
+<!--banner start   -->
+<div class="container-fluid banner-sec">
+   <img  class="curve3" src="assets/img/curve3.png" alt="curve3">
+   <img  class="curve1" src="assets/img/curve-1.png" alt="curve1">
+   <small class="dot-red"></small>   
+    <small class="dot-blue"></small>
+    <div class="row">
+        <div class="col-lg-12 px-0">
+            <div class="banner-content">
+                <h1>Don't let money stop you from<br> achieving your <span class="txt-secondary">Dreams.</span></h1>
+                <p>SkillPay gives you easy credit for the courses that you want to learn.<br>Apply for Loan on our mobile app</p>
+                <div class="app-store">
+                    <a href="https://play.google.com/store/apps/details?id=com.skillpay" target="_blank"><img src="assets/img/icons/android-store.png" alt="android-app"></a>       
+                    <a href="javascript:void(0)" data-toggle="modal" data-target="#exampleModal"><img src="assets/img/icons/app-store.png" alt="ios-app"></a>
+                </div>
+            </div>
+            <img  class="img-fluid home-banner" src="assets/img/header_bg.jpg" alt="">
+        </div>
+    </div>
+    
+</div>
+<!--banner end-->
+   
+   
+<!--about us start-->
+<div class="container-fluid about-sec">
+   <img src="assets/img/curve3.png" class="curve3" alt="curve3">
+    <div class="row">
+        <div class="col-lg-8 about-left">
+            <div>
+                <img src="assets/img/dotts.png" alt="dots">
+            </div>
+            <div>
+                <h2 class="heading-style-2">Who We Are?</h2>
+                <p>SkillPay is an financial institution which provides loan for aspiring students and working professionals. We understand the current situation and wants to help students, graduates, working professionals who wants to pursue or learn technology programs. So we provide loans for the students who wants to learn technology programs via training institutes in India. Currently we tied up with 10+ institutes based out of Hyderabad and counting.</p>
+                <p>Our main objective to help aspiring students or working professionals to help them to finish the courses, and they can pay the course fee later on installment basis.
+                </p>
+            </div>
+        </div>
+        <div class="col-lg-4 about-right">
+            <div>
+                <img src="assets/img/boy-with-tab.jpg" alt="aboutus-image">
+            </div>
+        </div>
+    </div>
+</div>
+<!--about us end-->
+   
+<!--learn now pay later sec start-->
+<div class="container-fluid learn-now-sec">
+   <img class="path1" src="assets/img/path1.png" alt="path1">
+   <img class="path2" src="assets/img/path2.png" alt="path1">
+    <div class="row">
+        <div class="col-lg-7 learn-now-left">
+            <img src="assets/img/learn_now_pay_later_image.jpg" alt="">
+        </div>
+        <div class="col-lg-5 learn-now-right">
+            <h2 class="heading-style-2">Get Trained & Pay Later</h2>
+            <ul>
+                <li><span>1</span><p>One Tap payment</p></li>
+                <li><span>2</span><p>Settle your payment once every month</p></li>
+                <li><span>3</span><p>Repay via affordable installment plans</p></li>
+                <li><span>4</span><p>Accepted across top coaching centers</p></li>
+            </ul>
+            <a href="javascript:void(0)" class="primary-btn" onclick="openNav()"><span>get loan</span></a>
+        </div>
+    </div>
+</div>
+<!--learn now pay later sec end-->
+   
+<!--   How Does this Works starts...! -->
+<div class="container-fluid how-works-sec">
+    <div class="row">
+        <div class="col-lg-6 how-works-left">
+            <img class="triangle" src="assets/img/triangle1.png" alt="triangle-orange">
+            <img class="curve3" src="assets/img/curve3.png" alt="curve3">
+          <img class="curve1" src="assets/img/curve-1.png" alt="curve1">
+           <div class="dots-pattern">
+               <img class="img-fluid" src="assets/img/dotts.png" alt="dots">
+           </div>
+            <div>
+                <h2 class="heading-style-2">How Does this Works?</h2>
+                <ol>
+                    <li>Find nearest institute and ask for SkillPay code.</li>
+                    <li>Apply simple online loan application form</li>
+                    <li>We will review and update you on your loan status</li>
+                    <li>If you were approved, we will release the course fee to your institute.</li>
+                    <li>Get Trained & Pay Later.</li>
+                </ol>
+                <a href="javascript:void(0)" class="primary-btn" onclick="openNav()"><span>get loan</span></a>
+            </div>
+        </div>
+        <div class="col-lg-6 how-works-right">
+            <div class="row">
+                <div class="col-sm-6 col-xs-12">
+                   <div class="box first-box">
+                       <div>
+                            <img src="assets/img/laptop.png" alt="laptop">
+                            <p>Find Institute <br>which offers SkillPay</p>
+                        </div>
+                   </div>
+                </div>
+                <div class="col-sm-6 col-xs-12">
+                   <div class="box second-box">
+                       <div>
+                            <img src="assets/img/enroll.png" alt="laptop">
+                            <p>Enroll in the<br> course</p>
+                        </div>
+                   </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-xs-12">
+                   <div class="box first-box">
+                       <div>
+                            <img src="assets/img/unicode.png" alt="laptop">
+                            <p>Ask Unique ID Code<br> or Scan QR Code</p>
+                        </div>
+                   </div>
+                </div>
+                <div class="col-sm-6 col-xs-12">
+                   <div class="box second-box">
+                       <div>
+                            <img src="assets/img/loan.png" alt="laptop">
+                            <p>Get Loan approved</p>
+                        </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--   How Does this Works end...! -->
+   
+<!--all courses sec start-->
+<div class="container-fluid all-courses">
+   <div class="row">
+       <div class="col-lg-12">
+           <h2 class="heading-style-2">All Courses</h2>
+       </div>
+   </div>
+    <div class="row">
+        <div class="col-lg-4 col-sm-12">
+            <div class="card course-card card-1">
+                <div class="card-header">
+                   <span>MNC Hired</span>
+                    <button class="price-btn">&#8377;20,000</button>
+                </div>
+                <div class="card-body">
+                   <div class="rating">
+                      <span>Duration: 90 Days</span>
+                       <ul>
+                         <li>&#9733;</li>
+                         <li>&#9733;</li>
+                         <li>&#9733;</li>
+                         <li>&#9733;</li>
+                         <li>&#9733;</li>
+                       </ul>
+                   </div>
+                    <h3>FullStack development</h3>
+<!--                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's...</p>-->
+                </div>
+                <a href="#" class="card-footer" onclick="openNav()">
+                    <span>get loan</span>
+                </a>
+            </div>
+        </div>
+                <div class="col-lg-4 col-sm-12">
+            <div class="card course-card card-2">
+                <div class="card-header">
+                    <span>MNC Hired</span>
+                    <button class="price-btn">&#8377;20,000</button>
+                </div>
+                <div class="card-body">
+                   <div class="rating">
+                      <span>Duration: 50 Days</span>
+                       <ul>
+                         <li>&#9733;</li>
+                         <li>&#9733;</li>
+                         <li>&#9733;</li>
+                         <li>&#9733;</li>
+                         <li>&#9733;</li>
+                       </ul>
+                   </div>
+                    <h3>DevOps</h3>
+<!--                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's...</p>-->
+                </div>
+                <a href="javascript:void(0)" class="card-footer" onclick="openNav()">
+                    <span>get loan</span>
+                </a>
+            </div>
+        </div>
+                <div class="col-lg-4 col-sm-12">
+            <div class="card course-card card-3">
+                <div class="card-header">
+                    <span>MNC Hired</span>
+                    <button class="price-btn">&#8377;17,000</button>
+                </div>
+                <div class="card-body">
+                   <div class="rating">
+                      <span>Duration : 45 Days</span>
+                       <ul>
+                         <li>&#9733;</li>
+                         <li>&#9733;</li>
+                         <li>&#9733;</li>
+                         <li>&#9733;</li>
+                         <li>&#9733;</li>
+                       </ul>
+                   </div>
+                    <h3>AWS</h3>
+<!--                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's...</p>-->
+                </div>
+                <a href="javascript:void(0)" class="card-footer" onclick="openNav()">
+                    <span>get loan</span>
+                </a>
+            </div>
+        </div>
+    </div>
+        <div class="row">
+        <div class="col-lg-4">
+            <div class="card course-card card-1">
+                <div class="card-header">
+                    <span>MNC Hired</span>
+                    <button class="price-btn">&#8377;30,000</button>
+                </div>
+                <div class="card-body">
+                   <div class="rating">
+                      <span>Duration: 60 Days</span>
+                       <ul>
+                         <li>&#9733;</li>
+                         <li>&#9733;</li>
+                         <li>&#9733;</li>
+                         <li>&#9733;</li>
+                         <li>&#9733;</li>
+                       </ul>
+                   </div>
+                    <h3>UI/UX</h3>
+<!--                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's...</p>-->
+                </div>
+                <a href="javascript:void(0)" class="card-footer" onclick="openNav()">
+                    <span>get loan</span>
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card course-card card-2">
+                <div class="card-header">
+                    <span>MNC Hired</span>
+                    <button class="price-btn">&#8377;12,000</button>
+                </div>
+                <div class="card-body">
+                   <div class="rating">
+                      <span>Duration: 45 Days</span>
+                       <ul>
+                         <li>&#9733;</li>
+                         <li>&#9733;</li>
+                         <li>&#9733;</li>
+                         <li>&#9733;</li>
+                         <li>&#9733;</li>
+                       </ul>
+                   </div>
+                    <h3>Python</h3>
+<!--                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's...</p>-->
+                </div>
+                <a href="javascript:void(0)" class="card-footer" onclick="openNav()">
+                    <span>get loan</span>
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card course-card card-3">
+                <div class="card-header">
+                    <span>MNC Hired</span>
+                    <button class="price-btn">&#8377;30,000</button>
+                </div>
+                <div class="card-body">
+                   <div class="rating">
+                      <span>Duration: 90 Days</span>
+                       <ul>
+                         <li>&#9733;</li>
+                         <li>&#9733;</li>
+                         <li>&#9733;</li>
+                         <li>&#9733;</li>
+                         <li>&#9733;</li>
+                       </ul>
+                   </div>
+                    <h3>Data Science</h3>
+<!--                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's...</p>-->
+                </div>
+                <a href="javascript:void(0)" class="card-footer" onclick="openNav()">
+                    <span>get loan</span>
+                </a>
+            </div>
+        </div>
+    </div>
+<!--    row for another 6 courses start-->
+    <div class="row remaining" style="display: none">
+        <div class="col-lg-4">
+            <div class="card course-card card-1">
+                <div class="card-header">
+                   <span>MNC Hired</span>
+                    <button class="price-btn">&#8377;40,000</button>
+                </div>
+                <div class="card-body">
+                   <div class="rating">
+                      <span>Duration: 90 Days</span>
+                       <ul>
+                         <li>&#9733;</li>
+                         <li>&#9733;</li>
+                         <li>&#9733;</li>
+                         <li>&#9733;</li>
+                         <li>&#9733;</li>
+                       </ul>
+                   </div>
+                    <h3>Game Development</h3>
+<!--                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's...</p>-->
+                </div>
+                <a href="#" class="card-footer" onclick="openNav()">
+                    <span>get loan</span>
+                </a>
+            </div>
+        </div>
+                <div class="col-lg-4">
+            <div class="card course-card card-2">
+                <div class="card-header">
+                    <span>MNC Hired</span>
+                    <button class="price-btn">&#8377;30,000</button>
+                </div>
+                <div class="card-body">
+                   <div class="rating">
+                      <span>Duration: 90 Days</span>
+                       <ul>
+                         <li>&#9733;</li>
+                         <li>&#9733;</li>
+                         <li>&#9733;</li>
+                         <li>&#9733;</li>
+                         <li>&#9733;</li>
+                       </ul>
+                   </div>
+                    <h3>Data Analytics</h3>
+<!--                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's...</p>-->
+                </div>
+                <a href="javascript:void(0)" class="card-footer" onclick="openNav()">
+                    <span>get loan</span>
+                </a>
+            </div>
+        </div>
+                <div class="col-lg-4">
+            <div class="card course-card card-3">
+                <div class="card-header">
+                    <span>MNC Hired</span>
+                    <button class="price-btn">&#8377;17,000</button>
+                </div>
+                <div class="card-body">
+                   <div class="rating">
+                      <span>Duration : 45 Days</span>
+                       <ul>
+                         <li>&#9733;</li>
+                         <li>&#9733;</li>
+                         <li>&#9733;</li>
+                         <li>&#9733;</li>
+                         <li>&#9733;</li>
+                       </ul>
+                   </div>
+                    <h3>Azure</h3>
+<!--                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's...</p>-->
+                </div>
+                <a href="javascript:void(0)" class="card-footer" onclick="openNav()">
+                    <span>get loan</span>
+                </a>
+            </div>
+        </div>
+    </div>
+            <div class="row remaining" style="display: none">
+        <div class="col-lg-4">
+            <div class="card course-card card-1">
+                <div class="card-header">
+                   <span>MNC Hired</span>
+                    <button class="price-btn">&#8377;50,000</button>
+                </div>
+                <div class="card-body">
+                   <div class="rating">
+                      <span>Duration: 150 Days</span>
+                       <ul>
+                         <li>&#9733;</li>
+                         <li>&#9733;</li>
+                         <li>&#9733;</li>
+                         <li>&#9733;</li>
+                         <li>&#9733;</li>
+                       </ul>
+                   </div>
+                    <h3>FullStack Masters</h3>
+<!--                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's...</p>-->
+                </div>
+                <a href="#" class="card-footer" onclick="openNav()">
+                    <span>get loan</span>
+                </a>
+            </div>
+        </div>
+                <div class="col-lg-4">
+            <div class="card course-card card-2">
+                <div class="card-header">
+                    <span>MNC Hired</span>
+                    <button class="price-btn">&#8377;40,000</button>
+                </div>
+                <div class="card-body">
+                   <div class="rating">
+                      <span>Duration: 90 Days</span>
+                       <ul>
+                         <li>&#9733;</li>
+                         <li>&#9733;</li>
+                         <li>&#9733;</li>
+                         <li>&#9733;</li>
+                         <li>&#9733;</li>
+                       </ul>
+                   </div>
+                    <h3>Cloud Masters</h3>
+<!--                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's...</p>-->
+                </div>
+                <a href="javascript:void(0)" class="card-footer" onclick="openNav()">
+                    <span>get loan</span>
+                </a>
+            </div>
+        </div>
+                <div class="col-lg-4">
+            <div class="card course-card card-3">
+                <div class="card-header">
+                    <span>MNC Hired</span>
+                    <button class="price-btn">&#8377;50,000</button>
+                </div>
+                <div class="card-body">
+                   <div class="rating">
+                      <span>Duration : 150 Days</span>
+                       <ul>
+                         <li>&#9733;</li>
+                         <li>&#9733;</li>
+                         <li>&#9733;</li>
+                         <li>&#9733;</li>
+                         <li>&#9733;</li>
+                       </ul>
+                   </div>
+                    <h3>Get Job Ready Prgm</h3>
+<!--                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's...</p>-->
+                </div>
+                <a href="javascript:void(0)" class="card-footer" onclick="openNav()">
+                    <span>get loan</span>
+                </a>
+            </div>
+        </div>
+    </div>
+<!--    row for another 6 courses end-->
+    <div class="row mt-4 mb-3">
+        <div class="col-lg-12 text-center">
+            <a href="javascript:void(0)" id="show" class="secondary-btn"><span>view all courses</span></a>
+        </div>
+    </div>
+</div>
+<!--all courses sec end-->
+   
+   
+<!--why skillpay start-->
+<div class="container-fluid skillpay-sec">
+   <img src="assets/img/why_skillpay_bg.jpg" class="why-skill" alt="why-skill">
+   <img src="assets/img/bluestrp.jpg" class="bluestrip" alt="bluestrip">
+   <img src="assets/img/curve3.png" class="curve3" alt="curve3">
+   <small class="dot-red"></small>
+   <small class="dot-blue"></small>
+    <div class="row">
+        <div class="col-lg-12">
+            <h2 class="heading-style-2">Why SkillPay?</h2>
+        </div>
+    </div>
+    <div class="row row-2">
+       <div class="col-lg-4 ">
+            <div class="skillpay-card">
+               <div>
+                <img src="assets/img/pay2.png" alt="">
+                <h3>Complete Digital Process</h3>
+                <p>Check your eligibilityfor a limit within minutes, With just a few details.</p>
+                </div>
+            </div>
+       </div>
+              <div class="col-lg-4">
+            <div class="skillpay-card">
+               <div>
+                <img src="assets/img/pay1.png" alt="">
+                <h3>Complete Digital Process</h3>
+                <p>Check your eligibilityfor a limit within minutes, With just a few details.</p>
+                </div>
+            </div>
+       </div>
+              <div class="col-lg-4">
+            <div class="skillpay-card">
+               <div>
+                <img src="assets/img/pay3.png" alt="">
+                <h3>Complete Digital Process</h3>
+                <p>Check your eligibilityfor a limit within minutes, With just a few details.</p>
+                </div>
+            </div>
+       </div>
+
+
+    </div>
+</div>
+<!--why skillpay end-->
+    
+<!--our partners start-->
+<div class="container-fluid partners-sec">
+   <img class="partner-yellow-img" src="assets/img/our_partners-right-img.jpg" alt="partner">
+   <img class="dotts-img" src="assets/img/dotts2.png" alt="partner">
+   <img class="curve3" src="assets/img/curve3.png" alt="curve3">
+   <img class="path1" src="assets/img/path1.png" alt="path1">
+    <div class="row text-center">
+        <div class="col-lg-12">
+            <h2 class="heading-style-2">Our Partners</h2>
+<!--            <small></small>-->
+            <p>SkillPay gives you credit for the courses you want to do with<br> flexible repayment options.</p>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class=" partners-card">
+                        <img src="assets/img/digital-lync.png" alt="client">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class=" partners-card">
+                        <img src="assets/img/learnuva.png" alt="client">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class=" partners-card">
+                         <img src="assets/img/osacad.png" alt="client">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--our partners end-->
+    
+    
+<!--get loan sec start-->
+<div class="container-fluid get-loan-sec">
+ <img src="assets/img/fill-form-img-1.svg" class="getloan-img1" alt="">
+   <img src="assets/img/fill-form-img-2.svg" class="getloan-img2" alt="">
+    <div class="row text-center">
+        <div class="col-lg-12">
+            <h2>Get Loan | Get Trained | Pay Later</h2>
+            <small></small>
+            <span>What are you waiting for? Apply for a loan in our mobile app.</span>
+            <div class="app-stores mt-2">
+                <a href="https://play.google.com/store/apps/details?id=com.skillpay" target="_blank"><img src="assets/img/icons/android-w.png" alt="ios-app"></a>
+                 <a href="javascript:void(0)"  data-toggle="modal" data-target="#exampleModal"><img src="assets/img/icons/app-store-w.png"  alt="andriod-app"></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--get loan sec end-->
+    
+<!--footer start-->
+<div class="container-fluid footer-sec">
+    <div class="row">
+        <div class="col-lg-2 col-md-12 col-sm-12 col-xs-12 footer-left">
+            <img src="assets/img/logo-footer.png" alt="logo">
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 footer-middle">
+            <ul>
+                <li><span>Phone: </span><a href="tel:90142 02633">90142 02633</a></li>
+                <li><span>Email: </span><a href="mailto:apply4loan@skillpay.io">apply4loan@skillpay.io</a></li>
+            </ul>
+        </div>
+        <div class="col-lg-4 col-md-12 col-xs-12 footer-right">
+            <p>© 2020 SkillPay. All rights reserved.</p>
+           
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <p><span>Crafted with Love by </span><a href="https://www.ideeo.io" target="_blank">IDEEO</a></p>
+    </div>
+</div>
+<!--footer end-->
+
+    
+    
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Coming Soon</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="assets/img/coming-soon.svg" alt="coming-soon" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</div>
+<!--  Model end-->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<!--External script links start    -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<!--External script links end    -->
+
+
+<script>
+    function openNav() {
+    document.getElementById("projectTour").style.right = "0";
+    }
+    function closeNav() {
+        document.getElementById('projectTour').style.right = '-100%';
+    }
+</script>
+<!-- Custom JS for background color on scrolling -->
+<script>
+$(function(){
+	var navbar = $('.navbar');
+	
+	$(window).scroll(function(){
+		if($(window).scrollTop() <= 40){
+			navbar.removeClass('navbar-scroll');
+		} else {
+			navbar.addClass('navbar-scroll');
+		}
+	});
+});    
+</script>
+
+<script>
+$(document).ready(function(){
+    $('#show').click(function() {
+      $('.remaining').toggle("slide");
+    });
+});
+</script>
+<script>
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+</script>
+</body>
+</html>
